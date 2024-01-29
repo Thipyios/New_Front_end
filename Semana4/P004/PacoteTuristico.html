@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ROTEIROS TURÍSTICOS</title>
+    <link rel="stylesheet" href="Css/Pacote.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&family=Vina+Sans&display=swap" rel="stylesheet">
+    <script src="RoteiroCompra.js"></script>
+</head>
+<body>
+<div class="homer">
+    <img src="./imgs/logo.png" class="logo" alt="Logo" title="FirstFlight Travels">
+    <h1 class="company">AdventureRoute Travel</h1>
+            
+            <ul class="navbar">
+                <li>
+                    <a href="#">Página inicial</a>
+                    <a href="#">Locais</a>
+                    <a href="#">Pacotes</a>
+                    <a href="">Sobre nos</a>
+                    <a href="">Entre em contato </a>
+                </li>
+            </ul>
+</div>
+    
+<form id="formulario">
+    <label for="titulo">Destino:</label>
+    <input type="text" id="titulo" name="titulo"><br>
+
+    <label for="Pacote">Pacote:</label>
+    <textarea id="Pacote" name="Pacote"></textarea><br>
+
+    <label for="Valor">Valor:</label>
+    <input type="text" id="Valor" name="Valor"><br>
+
+    <label for="Comentarios">Comentarios:</label>
+    <textarea id="Comentarios" name="Comentarios"></textarea><br>
+
+    <label for="FormaPagamento">Forma de pagamento :</label>
+    <input type="text" id="FormaPagamento" name="FormaPagamento"><br>
+
+    <label for="imagem">URL da Imagem:</label>
+    <input type="text" id="imagem" name="imagem"><br>
+
+    <button type="button" onclick="inserirRoteiro()">Inserir</button>
+</form>
+<hr>
+
+<div class="container-destinos" id="container-destinos">
+</div>
+
+<div class="homer">
+        
+<div class="end">
+    <div>
+        <p>Copyright © 2023 AdventureRoute Travel Todos os direitos reservados.</p>
+        <div>
+            <p>Site desenvolvido por: Thiago Carneiro Leite</p>
+        </div>
+    </div>
+        </div>
+        
+        
+</body>
+</html>

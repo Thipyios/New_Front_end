@@ -1,0 +1,144 @@
+/* Formulario */
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(139, 151, 162);
+   }
+  .layout {
+    width: 100%;
+    height: 768px;
+    
+    display: grid;
+    grid:
+      "header" auto
+      "main" 1fr
+      "footer" auto
+      / 1fr;
+    gap: 8px;
+  }
+  
+  .header { grid-area: header; }
+  .main { grid-area: main; }
+  .footer { grid-area: footer; }
+  
+  .homer{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(21, 74, 74);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .homer .logo{
+    width: 60px;
+    margin: 2vh;
+    margin-left: 8%;
+  }
+  
+  .navbar{
+    display: flex;
+    margin-right: 4vh;
+  }
+  
+  .company{
+    color: white;
+    font-size: 18px;
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-weight: 500;   
+    text-decoration: none;
+    transition: ease 0.40s;
+  
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .navbar a{
+    color: white;
+    font-size: 18px;
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-weight: 500;   
+    text-decoration: none;
+    transition: ease 0.40s;
+  
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .navbar a:hover,.navbar a.active{
+    background: white;
+    color: black;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 5px;
+    
+  }
+ 
+  
+  .end {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    font-size: 20px;
+  }
+  
+  .registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #formulario {
+    margin: 100px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-destinos {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4CAF50;
+}
