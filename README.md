@@ -64,11 +64,6 @@ linguagem CSS</a>
 
   # Autor
 
-| [<img src="https://avatars.githubusercontent.com/u/147214226?v=4" width=115><br><sub>Thiago Leite </sub>](https://github.com/Leitetc) | 
-|:-------------------------------------------------------------------------------------------------------------------------------------------------:|
-
-**Contatos**
-| Nome            | E-mail                  |
-|-----------------|-------------------------|
-| Thiago Leite    | [thiagoleite22@hotmail.com](mailto:thiagoleite22@hotmail.com) |  
-|
+| [<img src="https://avatars.githubusercontent.com/u/147214226?v=4" width=115><br><sub></sub>](https://github.com/Leitetc) | 
+| :---: |
+| <div align="justify">- **Nome:** Thiago Leite <br> - **Email:** [thiagoleite22@hotmail.com](mailto:thiagoleite22@hotmail.com)</div> |
